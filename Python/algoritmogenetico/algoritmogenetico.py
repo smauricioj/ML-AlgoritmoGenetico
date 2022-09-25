@@ -24,6 +24,7 @@ class AlgoritmoGenetico:
     ''' Classe para implementação de um algoritmo genético '''
 
     # Configuração
+    
     conf: dict = field(repr=False, default_factory=dict)
     ''' Arquivo de configurações '''
 
